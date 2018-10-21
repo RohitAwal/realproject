@@ -1,0 +1,895 @@
+body
+{
+background-color:white;
+}
+
+
+.main
+{
+height:230px;
+width:990px;
+background-color:#233237;
+float:left;
+
+}
+
+
+.header
+{
+height:150px;
+width:150px;
+background-color:#18121E;
+float:left;
+}
+.mid
+{
+	height:150px;
+	width:600px;
+	background-color:#18121E;
+	float:left;
+	margin:0 0 0 70px;
+}
+
+.companyname
+{
+	margin:40px 0 0 105px;
+	font-size:30px;
+	color:white;
+}
+.search-bar
+{
+	float:right;
+background: #233237;
+border-radius:50px:
+	
+}
+
+.logo
+{
+	height:200px;
+	width:200px;
+	background: red;
+	margin:20px 0 0 20px;
+}
+
+.sub-search
+{
+	width:64px;
+	border:none
+}
+
+.link 
+{
+	height:40px;
+	width:990px;
+	background-color:white;
+	float:left;
+	margin:30px 0 10px 0;
+}
+
+.link a:hover
+{
+		background-color:blue;
+		color:yellow;
+}
+.linkhome
+{
+	height:40px;
+	width:115px;
+	background-color:lightblue;
+	text-decoration:none;
+	color:black;
+	float:left;
+	font-size:20px;
+	
+}
+.linkgroup
+{
+	height:40px;
+	width:125px;
+	background-color:lightblue;
+	float:left;
+	color:black;
+	font-size:20px;
+}
+.linkproduct
+{
+	height:40px;
+	width:197px;
+	background-color:lightblue;
+	float:left;
+	color:black;
+	font-size:19px;
+}
+.linkcommunity
+{
+	height:40px;
+	width:145px;
+	background-color:lightblue;
+	float:left;
+	color:black;
+	font-size:20px;
+}
+.linknews
+{
+	height:40px;
+	width:178px;
+	background-color:lightblue;
+	float:left;
+	color:black;
+	font-size:20px;
+}
+.linkhelp
+{
+	height:40px;
+	width:80px;
+	background-color:lightblue;
+	float:left;
+	color:balck;
+	font-size:20px;
+}
+.linkorder
+{
+	height:40px;
+	width:150px;
+	background-color:lightblue;
+	float:left;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+}
+.navigation
+{
+	text-decoration:none;
+	color:black;
+	margin-left:5px;
+}
+
+.bodyhome
+{
+	float:left;
+	height:50px;
+	width:990px;
+	background-color:blue;
+}
+
+.companypicture
+{
+	width:990px;
+	height:465px;
+	background-color:white;
+	float:left;
+	border-radius:10px;
+	margin-top:10px;
+}
+.companydes
+{
+	width:990px;
+	height:auto;
+	background-color:#18121E;
+	float:left;
+	border-radius:10px;
+	margin-top:10px;
+}
+.ComPro
+{
+	font-size:50px;
+	text-align:center;
+	color:white;
+}
+.ComProDetail
+{
+	font-size:20px;
+	text-align:justify;
+	color:white;
+	margin:10px;
+}
+.AboutWebsite
+{
+	font-size:50px;
+	text-align:center;
+	color:white;
+}
+.AboutWebsiteDetail
+{
+	font-size:20px;
+	text-align:justify;
+	color:white;
+	margin:10px;
+}
+.loginbox
+{
+	height:200px;
+	width:990px;
+	float:left;
+	background-color:black;
+	margin:20px 0 20px 0;
+	
+}
+.login
+{
+	height:200px;
+	width:400px;
+	background-color:#EAC67A;
+	float:left;
+	
+}
+.loginhead
+{
+	font-size:25px;
+	color:white;
+	margin-bottom:10px;
+}
+.level
+{
+	margin-left:5px;
+}
+
+.Signin
+{
+	margin-left:5px;
+	background-color:blue;
+}
+.contact
+{
+	height:200px;
+	width:590px;
+	background-color:white;
+	float:left;
+	text-align:center;
+	background: url(images/map.png);
+}
+.connection
+{
+	height:20x;
+	width:990px;
+	background-color:white;
+	float:left;
+	text-align:center;
+	margin-top:40px;
+	
+}
+.notice
+{
+	color:black;
+	font-size:20px;
+}
+
+.footer
+{
+	width:990px;
+	height:100px;
+	float:left;
+	color:white;
+    background-color:black;
+	margin-top:10px;
+}
+.bottom
+{
+	color:white;
+	text-align:justify;
+	margin:10px;
+}
+
+.bodygroup
+{
+	float:left;
+	height:auto;
+	width:990px;
+	background-color:;
+}
+
+.Member
+{
+	width:990px;
+	height:70px;
+	background-color:#233237;
+	float:left;
+	margin-top:10px;
+	color:white;
+}
+.CEOpic
+{
+	width:290px;
+	height:300px;
+	background-color:white;
+	float:left;
+	margin-top:10px;
+}
+.CEO
+{
+	width:700px;
+	height:300px;
+	background-color:#18121E;
+	float:left;
+	margin-top:10px;
+}
+.CEOhead
+{
+	font-size:30px;
+	color:white;
+	text-align:center;
+}
+.CEOdes
+{
+	font-size:20px;
+	color:white;
+	text-align:justify;
+	margin:0 10px 0 10px;
+}
+.chairmandes
+{
+	font-size:20px;
+	color:white;
+	text-align:justify;
+	margin:0 10px 0 10px;
+}
+.secretarydes
+{
+	font-size:20px;
+	color:white;
+	text-align:justify;
+	margin:0 10px 0 10px;
+}
+.MDdes
+{
+	font-size:20px;
+	color:white;
+	text-align:justify;
+	margin:0 10px 0 10px;
+}
+.chairmanpic
+{
+	width:290px;
+	height:300px;
+	background-color:white;
+	float:right;
+	margin-top:10px;
+}
+.chairman
+{
+	width:700px;
+	height:300px;
+	background-color:#233237;
+	float:left;
+	margin-top:10px;
+}
+.chairmanhead
+{
+	font-size:30px;
+	color:white;
+	text-align:center;
+}
+.secretarypic
+{
+	width:290px;
+	height:300px;
+	background-color:white;
+	float:left;
+	margin-top:10px;
+}
+.secretary
+{
+	width:700px;
+	height:300px;
+	background-color:#EAC67A;
+	float:left;
+	margin-top:10px;
+}
+.secretaryhead
+{
+	font-size:30px;
+	color:white;
+	text-align:center;
+}
+.MDpic
+{
+	width:290px;
+	height:300px;
+	background-color:white;
+	float:right;
+	margin-top:10px;
+}
+.MD
+{
+	width:700px;
+	height:300px;
+	background-color:#18121E;
+	float:left;
+	margin-top:10px;
+}
+.MDhead
+{
+	font-size:30px;
+	color:white;
+	text-align:center;
+}
+.corvideo
+{
+	width:990px;
+	height:500px;
+	background-color:black;
+	float:left;
+	margin:15px 0 10px 0;
+}
+.bodyproduct
+{
+	float:left;
+	height:auto;
+	width:990px;
+	background-color:white;
+}
+.feature
+{
+	width:990px;
+	height:70px;
+	background-color:#233237;
+	float:left;
+	margin-top:10px;
+	color:white;
+}
+
+.P1
+{
+	float:left;
+	height:333.33px;
+	width:320px;
+	background-color:#EAC67A;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.P2
+{
+	float:left;
+	height:333.33px;
+	width:320px;
+	background-color:#233237;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+.P3
+{
+	float:left;
+	height:333.33px;
+	width:330px;
+	background-color:#EAC67A;
+	margin-top:10px;
+}
+
+.topsell
+{
+	width:990px;
+	height:70px;
+	background-color:#233237;
+	float:left;
+	margin-bottom:10px;
+	color:white;
+}
+.P4
+{
+	float:left;
+	height:333.33px;
+	width:330px;
+	background-color:#233237;
+	margin:0 10px 10px 0;
+}
+
+
+.P5
+{
+	float:left;
+	height:333.33px;
+	width:330px;
+	background-color:brown;
+	margin:0 10px 10px 0;
+}
+.P6
+{
+	float:left;
+	height:333.33px;
+	width:310px;
+	background-color:#233237;
+	margin:0 0 10px 0;
+}
+
+.popularproduct
+{
+	width:990px;
+	height:70px;
+	background-color:#233237;
+	float:left;
+	margin-bottom:10px;
+	color:white;
+}
+
+.P7
+{
+	float:left;
+	height:333.33px;
+	width:320px;
+	background-color:#EAC67A;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
+.P8
+{
+	float:left;
+	height:333.33px;
+	width:320px;
+	background-color:#233237;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+.P9
+{
+	float:left;
+	height:333.33px;
+	width:330px;
+	background-color:#EAC67A;
+	margin-bottom:10px;
+}
+.durablehardware
+{
+	width:990px;
+	height:70px;
+	background-color:#233237;
+	float:left;
+	margin-bottom:10px;
+	color:white;
+}
+
+.P10
+{
+	float:left;
+	height:333.33px;
+	width:320px;
+	background-color:#EAC67A;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
+.P11
+{
+	float:left;
+	height:333.33px;
+	width:320px;
+	background-color:#233237;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+.P12
+{ 
+	float:left;
+	height:333.33px;
+	width:330px;
+	background-color:#EAC67A;
+	margin-bottom:10px;
+}
+
+.servicehead
+{
+	font-size:40px;
+	color:White;
+	text-align:center;
+	background-color:#233237;
+	margin:10px 0 10px 0;
+	float:left;
+	width:990px;
+}
+
+.servicedes
+{
+	width:990px;
+	height:Auto;
+	font-size:30px;
+	color:white;
+	text-align:justify;
+	background-color:#233237;
+	margin:10px 10px 10px 0;
+	float:left;
+}
+
+.bodycommunity
+{
+	float:left;
+	height:auto;
+	width:990px;
+	background-color:#233237;
+	margin:10px 0 10px 0;
+}
+.boxFV
+{
+	width:990px;
+	height:400px;
+}
+.boxFVpic
+{
+	width:300px;
+	height:300px;
+	background-color:white;
+	float:left;
+}
+.boxFVinfo
+{
+	width:690px;
+	height:300px;
+	float:left;
+	background-color:#233237;
+}
+.Floodvictim
+{
+	Color:white;
+	margin-left:10px;
+	font-size:30px;
+}
+.boxBA
+{
+	width:990px;
+	height:400px;
+}
+.boxBApic
+{
+	width:300px;
+	height:300px;
+	background-color:white;
+	float:left;
+}
+.boxBAinfo
+{
+	width:690px;
+	height:300px;
+	float:left;
+	background-color:#233237;
+}
+.aboutfloodvictim
+{
+	Color:white;
+	margin:10px;
+	font-size:20px;
+	text-align:justify;
+}
+.bombardarea
+{
+	Color:white;
+	margin-left:10px;
+	font-size:30px;
+}
+
+.aboutbombardarea
+{
+	Color:white;
+	margin:10px;
+	font-size:20px;
+	text-align:justify;
+}
+.bodynews
+{
+	float:left;
+	height:500px;
+	width:990px;
+	background:purple;
+}
+.Iphonepic
+{
+	height:400px;
+	width:490px;
+	margin:10px 0 10px 0;
+	background-color:yellow;
+	float:left;
+}
+.Iphonedes
+{
+	height:400px;
+	width:490px;
+	margin:10px 0 10px 10px;
+	background-color:black;
+	float:left;
+}
+.I7pic
+{
+	height:400px;
+	width:490px;
+	margin:10px 0 10px 0;
+	background-color:yellow;
+	float:left;
+}
+.I7des
+{
+	height:400px;
+	width:490px;
+	margin:10px 0 10px 10px;
+	background-color:black;
+	float:left;
+}
+.iphonexp
+{
+	font-size:17px;
+	text-align:justify;
+	margin:0 10px 0 10px;
+	color:white;
+}
+.i7exp
+{
+	color:white;
+	text-align:justify;
+	margin:0 10px 0 10px;
+	font-size:17px;
+}
+.bodyhelp
+{
+	float:left;
+	height:auto;
+	width:0px;
+	background:white;
+}
+.frequently
+{
+	font-size:40px;
+	color:white;
+	text-align:center;
+}
+.Q1
+{
+	font-size:30px;
+	margin-left:10px;
+	color:white;
+	text-align:justify;
+}
+.Ans1
+{
+	
+	font-size:20px;
+	margin-left:10px;
+	color:white;
+	text-align:justify;
+	margin-right:10px;
+}
+.Q2
+{
+	font-size:30px;
+	margin-left:10px;
+	color:white;
+	text-align:justify;
+}
+.Ans2
+{
+	
+	font-size:20px;
+	margin-left:10px;
+	color:white;
+	text-align:justify;
+	margin-right:10px;
+}
+
+.clienthelp
+{
+	width:990px;
+	height:70px;
+	background-color:#233237;
+	float:left;
+	margin:10px 0 10px 0;
+	color:white;
+}
+
+.instruction
+{
+	width:600px;
+	height:auto;
+	background-color:#233237;
+	float:left;
+	margin:0 0 10px 0;
+	color:white;
+}
+.video1
+{
+	width:380px;
+	height:285px;
+	float:left;
+	background-color:black;
+	margin-left:10px;
+}
+.video2
+{
+	width:380px;
+	height:285px;
+	float:left;
+	background-color:black;
+	margin-left:10px;
+	margin-top:10px;
+}
+.video3
+{
+	width:380px;
+	height:285px;
+	float:left;
+	background-color:black;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.bodyorder
+{
+	float:left;
+	height:600px;
+	width:990px;
+	background:green;
+}
+.orderhead
+{
+	width:990px;
+	height:auto;
+	background-color:#233237;
+	float:left;
+	font-size:20px;
+	margin:10px 0 10px 0;
+}
+.headname
+{
+	float:left;
+	color:white;
+	text-align:center;
+	margin-left:10px;
+}
+.onlineform
+{
+	width:990px;
+	height:600px;
+	background-color:white;
+	float:left;
+}
+
+.onlineformphase1
+{
+	width:495px;
+	height:600px;
+	background-color:#984B43;
+	float:left;
+}
+.onlineformphase2
+{
+	width:495px;
+	height:600px;
+	background-color:#233237;
+	float:left;
+}
+.tpadding
+{
+	margin-left:20px;
+	color:white;
+}
+h1
+{
+	margin-left:20px;
+	color:white;
+}
+.orderbutton
+{
+	margin-left:20px;
+}
+.bold
+{
+	color:white;
+}
+.pageheading
+{
+	text-align:right;
+	margin:0 10px 0 0;
+	color:white;
+	
+}
+.pagename
+{
+	width:990px;
+	height:50px;
+	background-color:#233237;
+	float:left;
+}
+.bold
+{
+	font-weight:bold;
+	color:white;
+}

@@ -1,0 +1,50 @@
+.header
+{
+	background:purple;
+	float:left;
+	height:100px;
+	width:1200px;
+}
+.main {
+    background: whitesmoke;
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sectionreg {
+    background: whitesmoke;
+    float: right;
+    height: 900px;
+    width: 400px;
+    padding-left: 45px;
+    border: 2px solid mediumblue;
+}
+.slideimg
+{
+	float:left;
+	height:800px;
+	width:800px;
+	margin-top:10px;
+}
+.intro
+{
+	height: 410px;
+    width: 800px;
+    background: #306994;
+    color: white;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+
+.msg
+{
+    margin-top: 100px;
+    margin-left: 500%;
+    
+}

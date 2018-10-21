@@ -1,0 +1,812 @@
+@font-face {
+    font-family: 'regular-font'; /*a name to be used later*/
+    src: url(../Fonts/ITCAvantGardeStd-Bk_1.otf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'regular-bold'; /*a name to be used later*/
+    src: url(../Fonts/ITCAvantGardeStd-Demi.otf); /*URL to font*/
+}
+
+@font-face{
+	font-family: 'lemonmilk';
+    src: url(../Fonts/LemonMilkbold.otf); /*URL to font*/
+}
+
+@font-face{
+	font-family: 'titilium';
+    src: url(../Fonts/TitilliumWeb-Bold.ttf); /*URL to font*/
+}
+
+@font-face{
+	font-family: 'bebasneue';
+    src: url(../Fonts/BebasNeue-Regular.otf); /*URL to font*/
+}
+
+@font-face{
+	font-family: 'titilium-light';
+    src: url(../Fonts/TitilliumWeb-Light.ttf); /*URL to font*/
+}
+
+.menu ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	font-family: regular-font;
+	/*float:right;*/
+}
+.nav-item {
+	width: auto;
+	display: inline-block;
+	padding-left: 23px;
+}
+.nav-item a{
+	text-decoration: none;
+	display:block;
+	color: #ffffff !important;
+	line-height:30px;
+	font-size: 14px;
+}
+.nav-item:hover a{
+	color: #007bff !important;
+}
+
+
+@media only screen and (max-width: 1200px){
+	.text-wrapper{
+		top: 30%;
+	}
+
+	.about-left-text{
+		width: 60%;
+	}
+
+	.about-plain-background{
+		font-size: 1.0vw;
+	}
+	.about-background{
+	    height: 145vh;
+	}
+	.video-wrapper {
+        height: 145vh;
+    }
+    .about-text-wrapper{
+        top: 20%;
+    }
+    .modal-content{
+        width: 38%;
+    }
+    .popup-wrapper {
+        width: 35%;
+        left: 32.5%;
+    }
+}
+
+@media only screen and (max-width: 1118px){
+	.footer-timer{
+		padding-right: 0;
+		padding-left: 1%;
+	}
+	.about-background{
+	    height: 185vh;
+	}
+	.video-wrapper {
+        height: 185vh;
+    }
+    .about-text-wrapper{
+        top: 21%;
+    }
+    .modal-content{
+        width: 38%;
+    }
+    .race-register-button{
+	    margin-top: -20%;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+	.text-wrapper{
+		top: 25%;
+	}
+
+	.navbar-header{
+		width: 15%;
+	}
+
+	.beauty-block{
+		height: 70vh;
+	}
+	.about-background{
+	    height: 180vh;
+	}
+	.video-wrapper {
+        height: 180vh;
+    }
+    .about-text-wrapper{
+        top: 21%;
+    }
+    .modal-content{
+        width: 40%;
+    }
+    .race-register-button{
+	    margin-top: -20%;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+	.enroll-faq{
+		margin: 0 auto;
+	    width: 80%;
+	    height: 10vh;
+	}
+	.about-background{
+	    height: 175vh;
+	}
+	.video-wrapper {
+        height: 175vh;
+    }
+    .about-text-wrapper{
+        top: 22%;
+    }
+    .modal-content{
+        width: 40%;
+    }
+    .race-register-button{
+	    margin-top: -25%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+	.about-left-text{
+		width: 70%;
+	}
+
+	.about-plain-background{
+		font-size: 1.5vw;
+	}
+	.about-background{
+	    height: 150vh;
+	}
+	.video-wrapper {
+        height: 150vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 40%;
+    }
+    .race-register-button{
+	    margin-top: -25%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .custom-list {
+        line-height:200%;
+    }
+	.contact-form{
+		font-size: 1.5vw;
+	}
+	.contact-submit-btn{
+		font-size: 1.5vw;
+	}
+	#contact-subject{
+		font-size: 1.5vw;
+	}
+	#contact-message{
+		font-size: 1.5vw;
+	}
+
+	.register-right-text{
+		display: none;
+	}
+	.register-overlay-right{
+		display:none;
+	}
+	.register-overlay-left{
+		width: 100%;
+	}
+
+	.register-left-text{
+		width: 80%;
+	}
+
+	.register-plain-background-left{
+		font-size: 1.2vw;
+		margin-bottom: 50px;
+	}
+	.register-header{
+		font-size: 4vw;
+	}
+	.register-button-hidden{
+		display: block;
+		text-align: center;
+    	width: 50%;
+	}
+	.race-left-text{
+		width: 50%;
+	}
+	.race-defending{
+		font-size: 0.8vw;
+	}
+	.race-fun{
+		font-size: 2vw;
+	}
+	.about-background{
+	    height: 185vh;
+	}
+	.video-wrapper {
+        height: 185vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 45%;
+    }
+    .race-register-button{
+	    margin-top: 1%;
+    }
+    .register-prize {
+        margin-top: -8%;
+        margin-bottom: 3%;
+    }
+    .register-prize-header{
+        font-size: 3vw;
+    }
+    .prize {
+        font-size:1.8vw;
+    }
+    .prize-1 {
+        font-size: 2.1vw;
+    }
+    .popup-wrapper {
+        width: 35%;
+        left: 32.5%;
+    }
+}
+
+@media only screen and (max-width: 918px){
+	.text-wrapper{
+		top: 20%;
+	}
+
+	.left-text{
+		margin-bottom: 35px;
+	}
+
+	.right-text{
+		float:left;
+		width: 70%;
+		font-size: 1.8vw;
+	}
+	.about-background{
+	    height: 140vh;
+	}
+	.video-wrapper {
+        height: 140vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 50%;
+    }
+    .race-register-button{
+	    margin-top: -20%;
+    }
+    .popup-wrapper{
+        width: 40%;
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+	.enroll-faq{
+		margin: 0 auto;
+	    width: 80%;
+	    height: 15vh;
+	}
+	.about-background{
+	    height: 140vh;
+	}
+	.video-wrapper {
+        height: 140vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 50%;
+    }
+    .race-register-button{
+	    margin-top: 0%;
+    }
+    .custom-list {
+        line-height:200%;
+    }
+    .custom-list li{
+        font-size: x-small;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .race-register-button{
+	    margin-top: -25%;
+    }
+	.left-text{
+		width: 70%;
+	}
+	.right-text{
+		font-size: 2vw;
+	}
+
+	.cup{
+		font-size: 4vw;
+	}
+
+	.open-water{
+		font-size: 5vw;
+	}
+
+	.event-date{
+		font-size: 3vw;
+	}
+
+	.content{
+		font-size: 2vw;
+	}
+
+	.multi-logos{
+		width: 100%;
+	}
+
+	.get-ready-block{
+		height: 75vh;
+	}
+
+	.enroll-faq{
+		margin: 0 auto;
+	    width: 80%;
+	    height: 15vh;
+	}
+
+	.beauty-block{
+		height: 60vh;
+	}
+	.image-part{
+		height: 30vh;
+	}
+	.right-text{
+		margin-top: -10px;
+	}
+
+	.about-left-text{
+		width: 80%;
+	}
+
+	.about-plain-background{
+		font-size: 2.2vw;
+	}
+	.about-background{
+	    height: 195vh;
+	}
+	.video-wrapper {
+        height: 195vh;
+    }
+    .about-text-wrapper{
+        top: 20%;
+    }
+    .modal-content{
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 753px){
+	.footer-timer{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.race-wrapper{
+		height: 108vh;
+	}
+
+	.race-text-wrapper{
+		top: 25%;
+	}
+
+	.race-left-text{
+		display: none;
+	}
+
+	.race-right-text{
+		float: left;
+		width: 100%;
+	}
+
+	.race-defending, .race-defending-text{
+		font-size: 1.8vw;
+	}
+
+	.about-corfu-cup{
+		font-size: 2.5vw;
+	}
+	.race-fun{
+		font-size: 3vw;
+	}
+	.about-background{
+	    height: 180vh;
+	}
+	.video-wrapper {
+        height: 180vh;
+    }
+    .about-text-wrapper{
+        top: 21%;
+    }
+    .modal-content{
+        width: 57%;
+    }
+    .race-register-button{
+	    margin-top: -10%;
+    }
+    .race-prize-header{
+        font-size: 3vw;
+    }
+    .register-prize-header{
+        font-size: 3vw;
+    }
+    .r-prize {
+        font-size:1.8vw;
+    }
+    .r-prize-1 {
+        font-size: 2.1vw;
+    }
+    .popup-wrapper{
+        width: 60%;
+        left: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 718px){
+	.about-corfu-cup{
+		font-size: 1.5vw;
+	}
+
+	.footer-capitalize{
+		font-size: 2vw;
+	}
+	.about-background{
+	    height: 175vh;
+	}
+	.video-wrapper {
+        height: 175vh;
+    }
+    .about-text-wrapper{
+        top: 22%;
+    }
+    .modal-content{
+        width: 65%;
+    }
+    .race-register-button{
+	    margin-top: -15%;
+    }
+}
+
+@media only screen and (max-width: 620px){
+	.clockdiv > div {
+    	padding-right: 0;
+	}
+
+	.footer-clock{
+		padding-right: 0;
+	}
+	.about-background{
+	    height: 160vh;
+	}
+	.video-wrapper {
+        height: 160vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	.indicator-bar{
+		bottom: 3rem;
+	}
+	.get-ready-block{
+		height: 75vh;
+	}
+
+	.enroll-faq{
+		margin: 0 auto;
+	    width: 80%;
+	    height: 10vh;
+	}
+
+	.plain-background{
+		height: 40vh;
+	}
+
+	.logos{
+		padding: 0 20%;
+	}
+
+	.beauty-block{
+		height: 50vh;
+	}
+	.image-part{
+		height: 24vh;
+	}
+	.right-text{
+		margin-top: -10px;
+	}
+
+	.about-left-text{
+		width: 90%;
+	}
+
+	.about-plain-background{
+		font-size: 2.5vw;
+	}
+
+	.contact-form {
+		font-size: 2vw;
+	}
+	.contact-submit-btn{
+		font-size: 2vw;
+	}
+	#contact-subject{
+		font-size: 2vw;
+	}
+	#contact-message{
+		font-size: 2vw;
+	}
+
+	.register-left-text{
+		width: 90%;
+	}
+
+	.register-plain-background-left{
+		font-size: 1.45vw;
+	}
+
+	.register-header{
+		font-size: 6vw;
+	}
+	.about-background{
+	    height: 170vh;
+	}
+	.video-wrapper {
+        height: 170vh;
+    }
+    .about-text-wrapper{
+        top: 22%;
+    }
+    .modal-content{
+        width: 65%;
+    }
+    .popup-wrapper {
+        left: 20%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 585px){
+	.contact-text{
+		width: 90%;
+	}
+	.contact-form {
+		font-size: 2.5vw;
+	}
+	.contact-submit-btn{
+		font-size: 2.5vw;
+	}
+	#contact-subject{
+		font-size: 2.5vw;
+	}
+	#contact-message{
+		font-size: 2.5vw;
+	}
+	.about-background{
+	    height: 160vh;
+	}
+	.video-wrapper {
+        height: 160vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 575px){
+	.left-text{
+		width: 80%;
+	}
+	.single-logo {
+    	padding: 0 5px;
+	}
+
+	.about-event-cup{
+		padding-left: 30px;
+	}
+	.about-corfu-cup{
+		font-size: 5vw;
+	}
+	.about-event-date{
+		font-size: 4vw;
+	}
+	.footer-emrald{
+		margin-bottom: 10px;
+		padding-top: 15px;
+	}
+	.footer-logos .single-logo{
+		padding: 0 15px;
+	}
+	.footer-logos{
+		margin-bottom: 20px;
+	}
+	.footer-timer{
+		padding-left: 30px;
+	}
+	.content{
+		font-size: 4vw;
+	}
+	.clockdiv div > span{
+		font-size: 5.4vw;
+	}
+	.smalltext{
+		font-size: 2vw;
+	}
+
+	.image-part{
+		display: none;
+	}
+
+	.right-text{
+		margin-top: -10px;
+	}
+
+	.beauty-block{
+		height: 40vh;
+	}
+
+	.beauty-text{
+		padding-top: 20vh;
+	}
+	.race-wrapper{
+		height: 90vh;
+	}
+	.about-background{
+	    height: 160vh;
+	}
+	.video-wrapper {
+        height: 160vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 95%;
+        margin-right: 0%;
+    }
+    .prize {
+        font-size:1.8vw;
+    }
+    .popup-wrapper {
+        left: 10%;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+	.left-text{
+		width: 90%;
+	}
+
+
+	.right-text {
+		font-size: 3vw;
+		width: 90%;
+		margin-top: -10px;
+	}
+
+	.cup{
+		font-size: 5vw;
+	}
+
+	.open-water{
+		font-size: 6vw;
+	}
+
+	.event-date{
+		font-size: 4vw;
+	}
+
+	.content{
+		font-size: 4vw;
+	}
+
+	.clockdiv div > span{
+		font-size: 5vw;
+	}
+
+	.smalltext{
+		font-size: 3vw;
+	}
+
+	.navbar-header{
+		width: 28%;
+	}
+
+	.left-text{
+		margin-bottom: 45px;
+	}
+
+	.get-ready-block{
+		height: 60vh;
+	}
+
+	.enroll-faq{
+		margin: 0 auto;
+	    width: 80%;
+	    height: 10vh;
+	}
+
+	.plain-background{
+		height: 30vh;
+	}
+
+	.about-left-text{
+		width: 100%;
+	}
+
+	.about-plain-background{
+		font-size: 3vw;
+	}
+	.about-text-header1{
+		font-size: 5vw;
+	}
+	.about-text-header2{
+		font-size: 5vw;
+	}
+	.about-background{
+	    height: 150vh;
+	}
+	.video-wrapper {
+        height: 150vh;
+    }
+    .about-text-wrapper{
+        top: 23%;
+    }
+    .modal-content{
+        width: 100%;
+        margin-right: 0%;
+    }
+    .race-register-button{
+	    margin-top: -10%;
+    }
+    .custom-list li{
+        font-size: x-small;
+    }
+    .register-prize {
+        margin-top: -16%;
+        margin-bottom: 3%;
+    }
+    .popup-wrapper {
+        left: 5%;
+        width: 90%;
+    }
+}

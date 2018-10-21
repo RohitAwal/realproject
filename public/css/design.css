@@ -1,0 +1,82 @@
+.block-strong
+{
+    color:blue;
+}
+
+.block{
+
+}
+
+.title
+{
+font-size: 48px !important;
+    text-align: center;
+    text-style: Bold;
+}
+
+.title1
+{
+    font-size: 32px !important;
+    text-align: left;
+    text-decoration: underline;
+    margin-right: 30px;
+}
+.customh2
+{
+    padding-right: 20px;
+}
+
+.logout1
+{
+    padding-left: 450px;
+}
+
+.video {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.link1
+{
+    margin-left: 388px;
+}
+
+.login-page,
+.register-page{
+    background: url("../images/img21.jpg");
+}
+
+.contact{
+    height: 90px;
+    width:1000px;
+    color:black;
+}
+
+.Aboutus{
+    height: 500px;
+    width:100%;
+    background-color:white;
+    background: url("../images/100.jpg");;
+}
+
+.Aboutusdescription{
+    height: 500px;
+    width:100%;
+    background-color:white;
+}
+
+.header
+{
+    text-align: center;
+    font-size: 32px;
+}
+
+.head1
+{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
